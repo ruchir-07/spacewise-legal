@@ -1,6 +1,6 @@
 # SpaceWise — Privacy Policy
 
-**Last updated: 30 July 2026**
+**Last updated: 6 September 2026**
 
 SpaceWise is a storage cleaner and document organiser that runs entirely on your
 phone. This policy describes what the app does with your information. It is
@@ -10,13 +10,15 @@ short because the app collects almost nothing.
 
 ## The short version
 
-**SpaceWise has no accounts, no servers and no analytics.** Your photos, videos,
-contacts and documents never leave your device. There is no login, nothing to
-sign up for, and no way for us to see your data — we do not operate a backend
-that could receive it.
+**SpaceWise has no accounts, no analytics, and no backend that can receive your
+content.** Your photos, videos, contacts and documents never leave your device.
+There is no login and nothing to sign up for.
 
-The single exception is purchases, which are handled by Apple, Google and
-RevenueCat. That is described in full below.
+SpaceWise is free. There is nothing to buy, no ads, and no locked features.
+
+The app makes exactly **one** kind of network request, and it does not carry
+your content: an **app-update check** against Expo's update service on launch.
+That is described in full below.
 
 ---
 
@@ -50,6 +52,23 @@ document or piece of text is transmitted anywhere.
 There is no code path in SpaceWise that uploads your content. This is not a
 promise about how we behave — the capability is simply not in the app.
 
+## App updates
+
+SpaceWise can deliver bug fixes without waiting for a store review. To do that,
+on launch the app asks Expo's update service (`u.expo.dev`) whether a newer
+version of its own JavaScript is available.
+
+That request contains only what is needed to answer the question — the app's
+version, the platform it is running on, and which release channel it is on. As
+with any internet request, Expo's servers can see the IP address it came from.
+
+**No information about you, your files, your contacts or your usage is included
+in that request**, and nothing about your device's contents is sent. If you
+would rather the app never made it, turning off "Background App Refresh" and
+using the app offline prevents it; every feature works with no connection.
+
+Expo's own privacy policy: https://expo.dev/privacy
+
 ## Data stored on your device
 
 SpaceWise saves the following locally, and only locally:
@@ -81,21 +100,12 @@ encrypted.
 
 ## Purchases
 
-If you buy SpaceWise Pro, the transaction is processed by **Apple's App Store**
-or **Google Play**. We never see or receive your card details.
+**There are none.** SpaceWise is free, every feature is unlocked, and the app
+contains no in-app purchases and no ads. No payment processor is contacted and
+no purchase data of any kind is created.
 
-We use **RevenueCat** to verify and restore purchases. When you buy or restore,
-RevenueCat receives your purchase receipt and an anonymous, randomly generated
-app-user ID, plus basic device/platform information needed to validate the
-purchase. It does **not** receive your name, email, photos, contacts or
-documents.
-
-- RevenueCat privacy policy: https://www.revenuecat.com/privacy
-- Apple privacy policy: https://www.apple.com/legal/privacy/
-- Google privacy policy: https://policies.google.com/privacy
-
-If you never make a purchase, no purchase data is created and nothing is sent
-to RevenueCat.
+If a paid version is ever added, this policy will be updated first, and the
+change will be described here before it ships.
 
 ## Children
 
@@ -111,11 +121,14 @@ Because SpaceWise stores your data only on your own device:
 - **Deletion:** delete items in the app, or uninstall it to remove everything.
 - We cannot delete data on your behalf, because we never hold any.
 
-For purchase records, contact Apple, Google or RevenueCat using the links above.
+There are no purchase records to request, because the app sells nothing.
 
 ## Changes to this policy
 
-If this policy changes, the updated version will be published at this URL with a
+The published copy of this policy lives at https://ruchir-07.github.io/spacewise-legal/privacy.html — that is the URL given to
+the App Store and Google Play.
+
+If this policy changes, the updated version will be published at that URL with a
 new "Last updated" date. If SpaceWise ever adds anything that collects data —
 for example optional crash diagnostics — it will be listed here first, disclosed
 in the app's Privacy Report screen, and switchable off in Settings.
