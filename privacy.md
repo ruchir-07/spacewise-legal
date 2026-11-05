@@ -1,8 +1,8 @@
-# SpaceWise — Privacy Policy
+# kept. — Privacy Policy
 
-**Last updated: 6 September 2026**
+**Last updated: 6 November 2026**
 
-SpaceWise is a storage cleaner and document organiser that runs entirely on your
+kept. (formerly SpaceWise) is a storage cleaner and document organiser that runs entirely on your
 phone. This policy describes what the app does with your information. It is
 short because the app collects almost nothing.
 
@@ -10,11 +10,11 @@ short because the app collects almost nothing.
 
 ## The short version
 
-**SpaceWise has no accounts, no analytics, and no backend that can receive your
+**kept. has no accounts, no analytics, and no backend that can receive your
 content.** Your photos, videos, contacts and documents never leave your device.
 There is no login and nothing to sign up for.
 
-SpaceWise is free. There is nothing to buy, no ads, and no locked features.
+kept. is free. There is nothing to buy, no ads, and no locked features.
 
 The app makes exactly **one** kind of network request, and it does not carry
 your content: an **app-update check** against Expo's update service on launch.
@@ -22,9 +22,9 @@ That is described in full below.
 
 ---
 
-## What SpaceWise accesses on your device, and why
+## What kept. accesses on your device, and why
 
-SpaceWise asks for these permissions only when you use the feature that needs
+kept. asks for these permissions only when you use the feature that needs
 them, and each one is used strictly on-device:
 
 | Permission | Why | Leaves your device? |
@@ -40,7 +40,7 @@ All analysis — duplicate detection, blur detection, and reading text from your
 receipts — happens using your phone's own processor. No image, contact,
 document or piece of text is transmitted anywhere.
 
-## What SpaceWise does NOT collect
+## What kept. does NOT collect
 
 - No account, email address, name or phone number
 - No advertising identifiers; **no ad SDKs are bundled in the app**
@@ -49,12 +49,12 @@ document or piece of text is transmitted anywhere.
 - No browsing history or data from other apps
 - No photos, videos, contacts, documents or extracted text
 
-There is no code path in SpaceWise that uploads your content. This is not a
+There is no code path in kept. that uploads your content. This is not a
 promise about how we behave — the capability is simply not in the app.
 
 ## App updates
 
-SpaceWise can deliver bug fixes without waiting for a store review. To do that,
+kept. can deliver bug fixes without waiting for a store review. To do that,
 on launch the app asks Expo's update service (`u.expo.dev`) whether a newer
 version of its own JavaScript is available.
 
@@ -71,7 +71,7 @@ Expo's own privacy policy: https://expo.dev/privacy
 
 ## Data stored on your device
 
-SpaceWise saves the following locally, and only locally:
+kept. saves the following locally, and only locally:
 
 - Your settings and preferences
 - Your scanned documents and their extracted fields
@@ -83,12 +83,12 @@ SpaceWise saves the following locally, and only locally:
 - A daily record of how much free space your device has, used to draw your
   storage trend
 
-Uninstalling SpaceWise removes all of it. We keep no copy, because we never
+Uninstalling kept. removes all of it. We keep no copy, because we never
 receive one.
 
 ### What the Vault does and does not protect
 
-When you move a photo into the Vault, SpaceWise copies it into private app
+When you move a photo into the Vault, kept. copies it into private app
 storage and deletes the original from your photo library, so it no longer
 appears in Photos, in shared albums, or in any scan.
 
@@ -100,7 +100,7 @@ encrypted.
 
 ## Purchases
 
-**There are none.** SpaceWise is free, every feature is unlocked, and the app
+**There are none.** kept. is free, every feature is unlocked, and the app
 contains no in-app purchases and no ads. No payment processor is contacted and
 no purchase data of any kind is created.
 
@@ -109,12 +109,12 @@ change will be described here before it ships.
 
 ## Children
 
-SpaceWise is not directed at children and does not knowingly collect any
+kept. is not directed at children and does not knowingly collect any
 information from anyone, including children.
 
 ## Your rights
 
-Because SpaceWise stores your data only on your own device:
+Because kept. stores your data only on your own device:
 
 - **Access / export:** your documents can be exported to CSV or PDF from within
   the app at any time.
@@ -129,7 +129,7 @@ The published copy of this policy lives at https://ruchir-07.github.io/spacewise
 the App Store and Google Play.
 
 If this policy changes, the updated version will be published at that URL with a
-new "Last updated" date. If SpaceWise ever adds anything that collects data —
+new "Last updated" date. If kept. ever adds anything that collects data —
 for example optional crash diagnostics — it will be listed here first, disclosed
 in the app's Privacy Report screen, and switchable off in Settings.
 
