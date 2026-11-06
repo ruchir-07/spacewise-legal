@@ -1,6 +1,6 @@
 # kept. — Privacy Policy
 
-**Last updated: 6 November 2026**
+**Last updated: 7 November 2026**
 
 kept. (formerly SpaceWise) is a storage cleaner and document organiser that runs entirely on your
 phone. This policy describes what the app does with your information. It is
@@ -33,7 +33,7 @@ them, and each one is used strictly on-device:
 | **Save to photo library** | Put a photo back when you restore it from the Recycle Bin or the Vault | **No** |
 | **Camera** | Photograph receipts and documents to scan | **No** |
 | **Contacts** | Find duplicate contact cards and, when you tap Merge, combine them | **No** |
-| **Face ID / fingerprint** | Unlock your private Vault | **No** |
+| **Face ID / fingerprint** | Unlock the app when App Lock is on, and unlock your private Vault. The check happens in the phone's own system; kept. only learns yes or no | **No** |
 | **Notifications** (optional) | Local reminders such as "items in your Recycle Bin expire in 3 days" | **No** |
 
 All analysis — duplicate detection, blur detection, and reading text from your
@@ -135,4 +135,4 @@ in the app's Privacy Report screen, and switchable off in Settings.
 
 ## Contact
 
-Questions about this policy: **rbscoop2611@gmail.com**
+Questions about this policy: **contact@eclipsedesign.in**
